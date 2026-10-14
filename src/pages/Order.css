@@ -1,0 +1,90 @@
+.order-page {
+  min-height: 100vh;
+  background-color: #FAF7F2;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.order-page h1 {
+  color: #292929;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 30px;
+}
+
+.order-page form {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.order-page form > div {
+  margin-bottom: 25px;
+}
+
+.order-page label {
+  color: #292929;
+  font-weight: 500;
+}
+
+.order-page input[type="text"],
+.order-page textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #5F5F5F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.order-page textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.order-page h3 {
+  color: #292929;
+  margin-bottom: 12px;
+}
+
+.order-page input[type="radio"],
+.order-page input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.order-page label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #CE2829;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.order-page button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FDC913;
+  color: #292929;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.order-page button:disabled {
+  background-color: #5F5F5F;
+  color: white;
+  cursor: not-allowed;
+}
+
+.order-page button:not(:disabled):hover {
+  background-color: #e5b400;
+}
