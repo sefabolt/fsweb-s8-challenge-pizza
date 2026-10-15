@@ -1,4 +1,4 @@
-jsx
+
 import { Link } from "react-router-dom";
 import homeBanner from "../../images/iteration-1-images/home-banner.png";
 import logo from "../../images/iteration-1-images/logo.svg";
